@@ -42,6 +42,14 @@
 					<include>*.dic</include>
 				</includes>
 			</resource>
+			<resource>
+				<directory>src/main/java/</directory>
+				<filtering>true</filtering>
+				<includes>
+					<include>*.dic</include>
+					<include>*.xml</include>
+				</includes>
+			</resource>
 		</resources>
 	</build>
 </project>
